@@ -1,0 +1,153 @@
+User@DESKTOP-J6DECKN MINGW64 ~
+$ cd ortak proje
+bash: cd: too many arguments
+
+User@DESKTOP-J6DECKN MINGW64 ~
+$ cd..
+bash: cd..: command not found
+
+User@DESKTOP-J6DECKN MINGW64 ~
+$ cd or
+bash: cd: or: No such file or directory
+
+User@DESKTOP-J6DECKN MINGW64 ~
+$ cd desktop
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop (master)
+$ cd ortak
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak (master)
+$
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak (master)
+$ git clone https://github.com/furkanunyeli/furkanhoca_proje
+Cloning into 'furkanhoca_proje'...
+remote: Enumerating objects: 24, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 24 (delta 2), reused 24 (delta 2), pack-reused 0
+Unpacking objects: 100% (24/24), done.
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../Excel 2016.lnk
+        ../Fortnite.url
+        ../GitHub Desktop.lnk
+        ../MATLAB.lnk
+        ../Microsoft Edge.lnk
+        ../Word 2016.lnk
+        ../desktop.ini
+        ../matlab/
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak (master)
+$ dir
+furkanhoca_proje
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak (master)
+$ cd furkanhoca_proje
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak/furkanhoca_proje (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak/furkanhoca_proje (master)
+$ git branch deneme
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak/furkanhoca_proje (master)
+$ git checkout deneme
+Switched to branch 'deneme'
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak/furkanhoca_proje (deneme)
+$ git status
+On branch deneme
+nothing to commit, working tree clean
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak/furkanhoca_proje (deneme)
+$ git add -A
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak/furkanhoca_proje (deneme)
+$ git commit -m "main fonksiyon ekleme"
+On branch deneme
+Changes not staged for commit:
+        modified:   .vs/ConsoleApp5/v15/Server/sqlite3/storage.ide-shm
+
+Untracked files:
+        .vs/ConsoleApp5/v15/Server/sqlite3/db.lock
+
+no changes added to commit
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak/furkanhoca_proje (deneme)
+$ git commit -m "main fonksiyon ekleme"
+On branch deneme
+Changes not staged for commit:
+        modified:   .vs/ConsoleApp5/v15/.suo
+        modified:   .vs/ConsoleApp5/v15/Server/sqlite3/storage.ide-shm
+        modified:   .vs/ConsoleApp5/v15/Server/sqlite3/storage.ide-wal
+
+Untracked files:
+        .vs/ConsoleApp5/v15/Server/sqlite3/db.lock
+        a.vbs
+
+no changes added to commit
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak/furkanhoca_proje (deneme)
+$ git push origin deneme
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'deneme' on GitHub by visiting:
+remote:      https://github.com/furkanunyeli/furkanhoca_proje/pull/new/deneme
+remote:
+To https://github.com/furkanunyeli/furkanhoca_proje
+ * [new branch]      deneme -> deneme
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak/furkanhoca_proje (deneme)
+$ git push origin deneme
+Everything up-to-date
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak/furkanhoca_proje (deneme)
+$ git commit -m "main fonksiyon eklemge"
+On branch deneme
+Changes not staged for commit:
+        modified:   .vs/ConsoleApp5/v15/.suo
+        modified:   .vs/ConsoleApp5/v15/Server/sqlite3/storage.ide-shm
+        modified:   .vs/ConsoleApp5/v15/Server/sqlite3/storage.ide-wal
+        modified:   ConsoleApp5.sln
+
+Untracked files:
+        .vs/ConsoleApp5/v15/Server/sqlite3/db.lock
+        a.vbs
+
+no changes added to commit
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak/furkanhoca_proje (deneme)
+$ git push origin deneme
+Everything up-to-date
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak/furkanhoca_proje (deneme)
+$ git push origin deneme1
+error: src refspec deneme1 does not match any.
+error: failed to push some refs to 'https://github.com/furkanunyeli/furkanhoca_proje'
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak/furkanhoca_proje (deneme)
+$ git branch denem1
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak/furkanhoca_proje (deneme)
+$ git push origin deneme1
+error: src refspec deneme1 does not match any.
+error: failed to push some refs to 'https://github.com/furkanunyeli/furkanhoca_proje'
+
+User@DESKTOP-J6DECKN MINGW64 ~/desktop/ortak/furkanhoca_proje (deneme)
+$
