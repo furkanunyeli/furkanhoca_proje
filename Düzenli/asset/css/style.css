@@ -1,0 +1,98 @@
+
+#result{
+	display: block;
+	position: relative;
+	width: 50%;
+	margin: auto;			
+		}
+		
+		.dropzone .dz-default.dz-message{
+			background-image: url() ;
+			width: 0px;
+			height: 0px;	
+			min-height: inherit !important;
+			
+		}
+		
+		.form-control2{
+			
+			width: 300px;
+			height: 220px;
+		}
+		.resim2{
+			border-radius: 5%;
+			width: 120px;
+			height: 120px;
+			
+			
+			
+		}
+		.divalt{
+			width: 120px;
+			height: 120px;
+			
+		}#result{
+	display: block;
+	position: relative;
+	width: 50%;
+	margin: auto;			
+		}
+		
+		.dropzone .dz-default.dz-message{
+			background-image: url() ;
+			width: 0px;
+			height: 0px;	
+			min-height: inherit !important;
+			
+		}
+		
+		.form-control2{
+			
+			width: 300px;
+			height: 220px;
+		}
+		.resim2{
+			border-radius: 5%;
+			width: 120px;
+			height: 120px;
+			
+			
+			
+		}
+		.divalt{
+			width: 160px;
+			height: 160px;
+			
+		}
+/* file */
+label.file input {
+    position: absolute;
+    left: -9999px;
+}
+
+label.file input + .file {
+    display: inline-block;
+    width: auto;
+    padding: 0 20px;
+    height: 35px;
+    font: 14px/35px sans-serif;
+    background: #4285f4;
+    border-radius: 35px;
+    color: #fff;
+    cursor: pointer;
+   
+}
+
+/* Eğer dosya seçilmiş ise css uygula (bunun için elemana reuired eklenmesi gerekir) */
+label.file input:valid + .file {
+ /*   background: #4285f4 url(../images/check.png) no-repeat;
+    background-size: 20px 14px;
+    background-position: 94%;
+    padding-right: 35px;*/
+     display: none;
+	
+}
+
+label.file .file:hover {
+    background-color: #68a4f4;
+}
